@@ -270,8 +270,9 @@ class ChargeAlong:
         drivers said, and nearby alternatives.
 
         The id is permanent. Raises :class:`NotFound` for an id that never
-        existed and :class:`Gone` for a site removed from its source, so code
-        holding stored ids can tell a typo from a retired charger.
+        existed. A site removed from its source still answers, with
+        ``site.status`` of ``"removed"``, so code holding stored ids can tell
+        a typo from a retired charger.
         """
         body = self._get(f"/v1/sites/{_segment(public_id, 'site id')}", None)
         return SiteDetail.from_json(body.get("data"))

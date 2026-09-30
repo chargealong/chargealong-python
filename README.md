@@ -95,8 +95,9 @@ print(detail.reviews.summary.count, "reviews, last worked", detail.reviews.summa
 ```
 
 The public id is permanent: store it rather than a name or a path. A site
-removed from its source raises `Gone`, and an id that never existed raises
-`NotFound`, so code holding stored ids can tell a retired charger from a typo.
+removed from its source still answers, with `site.status` of `"removed"`, and an
+id that never existed raises `NotFound`, so code holding stored ids can tell a
+retired charger from a typo.
 
 ## Search
 
@@ -125,7 +126,7 @@ move.
 ## Errors
 
 ```python
-from chargealong import BadRequest, Gone, NoRoute, NotFound, RateLimited
+from chargealong import BadRequest, NoRoute, NotFound, RateLimited
 
 try:
     ca.plan_trip(a, b, range_km=400)

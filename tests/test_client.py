@@ -19,7 +19,6 @@ from chargealong import (
     BadRequest,
     ChargeAlong,
     ChargeAlongError,
-    Gone,
     NoRoute,
     NotFound,
     RateLimited,
@@ -171,16 +170,17 @@ class TestSite(unittest.TestCase):
         self.assertEqual(404, caught.exception.status)
         self.assertEqual("not found", caught.exception.title)
 
-    def test_a_retired_site_raises_gone_not_not_found(self):
-        # A caller holding stored ids needs to tell "removed from its source"
-        # from "never existed": the first is worth dropping from a list, the
-        # second is a typo.
-        ca, _ = client({"status": 410, "title": "gone", "type": "about:blank"}, status=410)
-        with self.assertRaises(Gone) as caught:
-            ca.site("hwqb4abf")
-        self.assertNotIsInstance(caught.exception, NotFound)
-        self.assertIsInstance(caught.exception, ChargeAlongError)
-        self.assertEqual(410, caught.exception.status)
+    def test_a_removed_site_answers_like_any_other_marked_removed(self):
+        # Only the website's page for a removed site says 410. The API returns
+        # the site, with its status, so a caller drops it on that.
+        body = fixture("site")
+        body["data"]["site"]["status"] = "removed"
+        ca, _ = client(body)
+        self.assertEqual("removed", ca.site("hwqb4abf").site.status)
+
+    def test_there_is_no_error_for_a_status_the_api_never_sends(self):
+        import chargealong
+        self.assertFalse(hasattr(chargealong, "Gone"))
 
     def test_a_site_row_links_to_its_page(self):
         ca, _ = client(fixture("site"))

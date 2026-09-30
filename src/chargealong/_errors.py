@@ -31,15 +31,6 @@ class NotFound(ChargeAlongError):
     """
 
 
-class Gone(ChargeAlongError):
-    """The site was removed from its source (410).
-
-    Different from :class:`NotFound`: the id was real, and the charger it named
-    has been retired. A caller holding stored ids can drop this one rather than
-    treating it as a typo.
-    """
-
-
 class BadRequest(ChargeAlongError):
     """The request could not be served as written. The detail names the
     parameter: "lat: must be between -90 and 90"."""
@@ -71,8 +62,6 @@ class RateLimited(ChargeAlongError):
 def error_for(status: int, title: str = "", detail: str = "", retry_after: float | None = None) -> ChargeAlongError:
     if status == 404:
         return NotFound(status, title, detail)
-    if status == 410:
-        return Gone(status, title, detail)
     if status == 422:
         return NoRoute(status, title, detail)
     if status == 429:

@@ -15,7 +15,7 @@ chargealong.io/en/guides/where-the-data-comes-from/.
 """
 
 from ._client import DEFAULT_BASE_URL, ChargeAlong, Transport, __version__
-from ._errors import BadRequest, ChargeAlongError, Gone, NoRoute, NotFound, RateLimited
+from ._errors import BadRequest, ChargeAlongError, NoRoute, NotFound, RateLimited
 from ._models import (
     CONNECTORS,
     SITE,
@@ -58,7 +58,7 @@ from ._models import (
 __all__ = [
     "BadRequest", "CONNECTORS", "ChargeAlong", "ChargeAlongError", "ChargeTime", "Connector", "Cost",
     "Country", "CountryDetail", "CountryOverview", "CurvePoint", "DEFAULT_BASE_URL", "Facet", "Gap",
-    "Gone", "Locality", "LocalityDetail", "NearPlace", "Nearby", "Network", "NetworkDetail",
+    "Locality", "LocalityDetail", "NearPlace", "Nearby", "Network", "NetworkDetail",
     "NetworkList", "NoRoute", "NotFound", "Overview", "Photo", "PlaceMatch", "PostcodeMatch",
     "RateLimited", "Redirect", "Region", "RegionDetail", "Review", "ReviewSummary", "Reviews",
     "Route", "SITE", "SearchResult", "Site", "SiteDetail", "Source", "Transport", "TripPlan",

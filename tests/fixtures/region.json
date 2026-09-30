@@ -1,0 +1,37 @@
+{
+ "data": {
+  "country": {
+   "iso2": "AU",
+   "slug": "australia",
+   "name": "Australia",
+   "site_count": 5076
+  },
+  "region": {
+   "slug": "victoria",
+   "code": "VIC",
+   "name": "Victoria",
+   "site_count": 718
+  },
+  "localities": [
+   {
+    "slug": "abbotsford",
+    "name": "Abbotsford",
+    "postcode": "3067",
+    "site_count": 1
+   },
+   {
+    "slug": "aireys-inlet",
+    "name": "Aireys Inlet",
+    "postcode": "3231",
+    "site_count": 1
+   },
+   {
+    "slug": "albanvale",
+    "name": "Albanvale",
+    "postcode": "3021",
+    "site_count": 1
+   }
+  ]
+ },
+ "generated_at": "2026-09-30T00:24:44Z"
+}

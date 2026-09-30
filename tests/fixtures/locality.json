@@ -1,0 +1,112 @@
+{
+ "data": {
+  "country": {
+   "iso2": "AU",
+   "slug": "australia",
+   "name": "Australia",
+   "site_count": 5076
+  },
+  "region": {
+   "slug": "victoria",
+   "code": "VIC",
+   "name": "Victoria",
+   "site_count": 718
+  },
+  "locality": {
+   "slug": "batman",
+   "name": "Batman",
+   "postcode": "3058",
+   "time_zone": "Australia/Melbourne",
+   "site_count": 2
+  },
+  "sites": [
+   {
+    "public_id": "guzgfbyv",
+    "name": "Coburg Civic Centre / Moreland City",
+    "network": "chargefox",
+    "network_name": "Chargefox",
+    "address": "90 Bell Street, Coburg Victoria 3058",
+    "status": "active",
+    "speed": "fast",
+    "max_kw": 50,
+    "plugs": 3,
+    "standards": [
+     "ccs2",
+     "chademo",
+     "type-2"
+    ],
+    "cost_kind": "free",
+    "lat": -37.74104152020631,
+    "lng": 144.9701497464091,
+    "path": "/en/australia/victoria/batman/chargefox/coburg-civic-centre-moreland-city-guzgfbyv/"
+   },
+   {
+    "public_id": "hwqb4abf",
+    "name": "Coburg Town Hall / Moreland City",
+    "network": "chargefox",
+    "network_name": "Chargefox",
+    "address": "Bell Street, Coburg, Melbourne Victoria 3058",
+    "status": "active",
+    "speed": "ac",
+    "max_kw": 7,
+    "plugs": 2,
+    "standards": [
+     "type-2"
+    ],
+    "cost_kind": "free",
+    "lat": -37.74066654517114,
+    "lng": 144.96967301950258,
+    "path": "/en/australia/victoria/batman/chargefox/coburg-town-hall-moreland-city-hwqb4abf/"
+   }
+  ],
+  "facets": [
+   {
+    "kind": "connector",
+    "key": "type-2",
+    "count": 2
+   },
+   {
+    "kind": "connector",
+    "key": "ccs2",
+    "count": 1
+   },
+   {
+    "kind": "connector",
+    "key": "chademo",
+    "count": 1
+   },
+   {
+    "kind": "network",
+    "key": "chargefox",
+    "count": 2
+   },
+   {
+    "kind": "speed",
+    "key": "ac",
+    "count": 1
+   },
+   {
+    "kind": "speed",
+    "key": "fast",
+    "count": 1
+   }
+  ],
+  "neighbours": [
+   {
+    "region": "victoria",
+    "slug": "coburg-north",
+    "name": "Coburg North",
+    "site_count": 1,
+    "distance_km": 1.20291279379
+   },
+   {
+    "region": "victoria",
+    "slug": "fawkner",
+    "name": "Fawkner",
+    "site_count": 2,
+    "distance_km": 2.52273844917
+   }
+  ]
+ },
+ "generated_at": "2026-09-30T00:26:47Z"
+}

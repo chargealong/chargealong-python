@@ -1,0 +1,28 @@
+{
+ "data": {
+  "route": {
+   "distance_km": 2400.5,
+   "duration_min": 1500,
+   "line": [
+    [
+     115.86,
+     -31.95
+    ],
+    [
+     138.6,
+     -34.93
+    ]
+   ]
+  },
+  "feasible": false,
+  "drive_min": 1500,
+  "charge_min": 0,
+  "total_min": 1500,
+  "gap": {
+   "from_km": 410.2,
+   "to_km": 790.8
+  },
+  "stops": []
+ },
+ "generated_at": "2026-09-30T00:00:00Z"
+}

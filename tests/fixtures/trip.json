@@ -1,0 +1,72 @@
+{
+ "data": {
+  "route": {
+   "distance_km": 862.03,
+   "duration_min": 490,
+   "line": [
+    [
+     144.962979,
+     -37.814006
+    ],
+    [
+     144.956905,
+     -37.801583
+    ],
+    [
+     144.96013,
+     -37.77751
+    ]
+   ]
+  },
+  "feasible": true,
+  "arrival_pct": 20,
+  "drive_min": 491,
+  "charge_min": 44,
+  "total_min": 535,
+  "stops": [
+   {
+    "site": {
+     "public_id": "xyjobdss",
+     "name": "7-Eleven – Wodonga West",
+     "network": "evie-networks",
+     "network_name": "Evie Networks",
+     "operator": "Evie Networks",
+     "address": "196 Melbourne Rd, Wodonga VIC 3690",
+     "status": "active",
+     "lat": -36.1112619,
+     "lng": 146.8641004,
+     "path": "/en/australia/victoria/west-wodonga/evie-networks/7-eleven-wodonga-west-xyjobdss/"
+    },
+    "along_km": 299.4,
+    "detour_km": 1,
+    "power_kw": 150,
+    "dc": true,
+    "arrive_pct": 25,
+    "depart_pct": 71,
+    "energy_kwh": 31.3,
+    "charge_min": 15
+   },
+   {
+    "site": {
+     "public_id": "ruq4nfbv",
+     "name": "Beehive Hotel Motel",
+     "network": "unbranded",
+     "address": "479 Coolac Rd, Coolac NSW 2727",
+     "status": "active",
+     "lat": -34.92370530370222,
+     "lng": 148.1656922603388,
+     "path": "/en/australia/new-south-wales/coolac/unbranded/beehive-hotel-motel-ruq4nfbv/"
+    },
+    "along_km": 498.3,
+    "detour_km": 1.3,
+    "power_kw": 150,
+    "dc": true,
+    "arrive_pct": 20,
+    "depart_pct": 76,
+    "energy_kwh": 38.1,
+    "charge_min": 19
+   }
+  ]
+ },
+ "generated_at": "2026-09-30T00:24:52Z"
+}

@@ -1,0 +1,87 @@
+{
+ "data": {
+  "country": {
+   "iso2": "AU",
+   "slug": "australia",
+   "name": "Australia",
+   "site_count": 5076
+  },
+  "network": {
+   "key": "chargefox",
+   "name": "Chargefox",
+   "site_count": 509,
+   "region_count": 7
+  },
+  "regions": [
+   {
+    "slug": "new-south-wales",
+    "code": "NSW",
+    "name": "New South Wales",
+    "site_count": 256
+   },
+   {
+    "slug": "victoria",
+    "code": "VIC",
+    "name": "Victoria",
+    "site_count": 93
+   }
+  ],
+  "busiest": [
+   {
+    "slug": "ben-buckler",
+    "name": "Ben Buckler",
+    "postcode": "2026",
+    "site_count": 7,
+    "region": "new-south-wales"
+   },
+   {
+    "slug": "bondi",
+    "name": "Bondi",
+    "postcode": "2026",
+    "site_count": 6,
+    "region": "new-south-wales"
+   }
+  ],
+  "sites": [
+   {
+    "public_id": "gnhcbx24",
+    "name": "Chargefox Airport West",
+    "network": "chargefox",
+    "network_name": "Chargefox",
+    "address": "29-35 Louis St, Airport West Victoria 3042",
+    "status": "active",
+    "speed": "ultra-fast",
+    "max_kw": 350,
+    "plugs": 8,
+    "standards": [
+     "ccs2",
+     "chademo"
+    ],
+    "cost_kind": "paid",
+    "lat": -37.71364567547256,
+    "lng": 144.88569078594128,
+    "path": "/en/australia/victoria/gowanbrae/chargefox/chargefox-airport-west-gnhcbx24/"
+   },
+   {
+    "public_id": "23bnx42r",
+    "name": "Chargefox - Barnawartha North",
+    "network": "chargefox",
+    "network_name": "Chargefox",
+    "address": "Murray Valley Hwy, Barnawartha North Vic 3690",
+    "status": "active",
+    "speed": "ultra-fast",
+    "max_kw": 350,
+    "plugs": 8,
+    "standards": [
+     "ccs2",
+     "chademo"
+    ],
+    "cost_kind": "paid",
+    "lat": -36.0741629913788,
+    "lng": 146.72714760942472,
+    "path": "/en/australia/victoria/barnawartha/chargefox/chargefox-barnawartha-north-23bnx42r/"
+   }
+  ]
+ },
+ "generated_at": "2026-09-30T00:24:44Z"
+}

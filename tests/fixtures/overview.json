@@ -1,0 +1,52 @@
+{
+ "data": {
+  "sites": 132525,
+  "ultra_fast": 6964,
+  "countries": [
+   {
+    "iso2": "AU",
+    "slug": "australia",
+    "name": "Australia",
+    "site_count": 5076,
+    "busiest": [
+     {
+      "slug": "randwick",
+      "name": "Randwick",
+      "postcode": "2031",
+      "site_count": 26,
+      "region": "new-south-wales"
+     },
+     {
+      "slug": "chatswood",
+      "name": "Chatswood",
+      "postcode": "2057",
+      "site_count": 24,
+      "region": "new-south-wales"
+     }
+    ]
+   },
+   {
+    "iso2": "CA",
+    "slug": "canada",
+    "name": "Canada",
+    "site_count": 16732,
+    "busiest": [
+     {
+      "slug": "magog",
+      "name": "Magog",
+      "postcode": "J1X",
+      "site_count": 55,
+      "region": "quebec"
+     },
+     {
+      "slug": "saint-hyacinthe",
+      "name": "Saint-Hyacinthe",
+      "site_count": 50,
+      "region": "quebec"
+     }
+    ]
+   }
+  ]
+ },
+ "generated_at": "2026-09-30T00:24:34Z"
+}

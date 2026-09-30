@@ -1,0 +1,59 @@
+{
+ "data": {
+  "slug": "tesla-model-3",
+  "brand": "Tesla",
+  "model": "Model 3",
+  "year": 2023,
+  "source_id": "fbffc80f-062d-ed16-d6df-5f621bb35848",
+  "battery_kwh": 57.5,
+  "consumption_kwh_100km": 13.7,
+  "range_km": 419,
+  "ac_kw": 11,
+  "ac_ports": [
+   "type-2"
+  ],
+  "dc_kw": 57.5,
+  "dc_ports": [
+   "ccs2"
+  ],
+  "curve": [
+   {
+    "pct": 0,
+    "power_kw": 57.5
+   },
+   {
+    "pct": 50,
+    "power_kw": 57.5
+   },
+   {
+    "pct": 80,
+    "power_kw": 34.5
+   },
+   {
+    "pct": 100,
+    "power_kw": 11
+   }
+  ],
+  "voltage_v": 400,
+  "charging": [
+   {
+    "charger_kw": 50,
+    "minutes_10_80": 55
+   },
+   {
+    "charger_kw": 150,
+    "minutes_10_80": 51
+   },
+   {
+    "charger_kw": 350,
+    "minutes_10_80": 51
+   }
+  ]
+ },
+ "source": {
+  "licence": "MIT",
+  "name": "Open EV Data",
+  "url": "https://github.com/KilowattApp/open-ev-data"
+ },
+ "generated_at": "2026-09-30T00:24:44Z"
+}

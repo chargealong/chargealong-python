@@ -1,0 +1,51 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "chargealong"
+version = "0.1.0"
+description = "Find EV chargers near a point, plan a road trip through charging stops, and look up electric car charging speeds. Free and keyless."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [{ name = "ChargeAlong" }]
+keywords = [
+  "ev charger api",
+  "ev charging stations",
+  "charging station locator",
+  "ev trip planner",
+  "electric vehicle",
+  "electric car charging",
+  "charging network",
+  "open charge map",
+  "australia",
+  "new zealand",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Topic :: Scientific/Engineering :: GIS",
+  "Typing :: Typed",
+]
+# No dependencies, on purpose. The whole client is one urllib call and a set of
+# dataclasses; asking for requests would make this the heaviest thing in
+# somebody's lambda for no gain.
+dependencies = []
+
+[project.urls]
+Homepage = "https://chargealong.io"
+Documentation = "https://chargealong.io/docs/"
+Source = "https://github.com/chargealong/chargealong-python"
+Changelog = "https://github.com/chargealong/chargealong-python/blob/main/CHANGELOG.md"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/chargealong"]

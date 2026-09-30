@@ -1,0 +1,147 @@
+{
+ "data": {
+  "country": {
+   "iso2": "AU",
+   "slug": "australia",
+   "name": "Australia",
+   "site_count": 5076
+  },
+  "region": {
+   "slug": "victoria",
+   "code": "VIC",
+   "name": "Victoria",
+   "site_count": 718
+  },
+  "locality": {
+   "slug": "batman",
+   "name": "Batman",
+   "postcode": "3058",
+   "time_zone": "Australia/Melbourne",
+   "site_count": 2
+  },
+  "site": {
+   "public_id": "hwqb4abf",
+   "name": "Coburg Town Hall / Moreland City",
+   "network": "chargefox",
+   "network_name": "Chargefox",
+   "address": "Bell Street, Coburg, Melbourne Victoria 3058",
+   "status": "active",
+   "speed": "ac",
+   "max_kw": 7,
+   "plugs": 2,
+   "standards": [
+    "type-2"
+   ],
+   "cost_kind": "free",
+   "lat": -37.74066654517114,
+   "lng": 144.96967301950258,
+   "path": "/en/australia/victoria/batman/chargefox/coburg-town-hall-moreland-city-hwqb4abf/",
+   "operator": "Chargefox",
+   "usage": "public",
+   "cost": {
+    "kind": "free",
+    "has_conditions": false,
+    "text": "Free"
+   },
+   "last_verified_at": "2023-07-13T09:29:00Z",
+   "updated_at": "2026-09-13T06:30:14.710491Z"
+  },
+  "connectors": [
+   {
+    "standard": "type-2",
+    "label": "Type 2 (Socket Only)",
+    "current": "ac",
+    "power_kw": 7,
+    "quantity": 2
+   }
+  ],
+  "sources": [
+   {
+    "key": "ocm",
+    "external_id": "210937",
+    "provider": "Open Charge Map Contributors",
+    "licence": "Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)",
+    "last_seen_at": "2026-09-27T16:30:15.042312Z"
+   }
+  ],
+  "alternatives": [
+   {
+    "public_id": "guzgfbyv",
+    "name": "Coburg Civic Centre / Moreland City",
+    "network": "chargefox",
+    "network_name": "Chargefox",
+    "address": "90 Bell Street, Coburg Victoria 3058",
+    "status": "active",
+    "speed": "fast",
+    "max_kw": 50,
+    "plugs": 3,
+    "standards": [
+     "ccs2",
+     "chademo",
+     "type-2"
+    ],
+    "cost_kind": "free",
+    "lat": -37.74104152020631,
+    "lng": 144.9701497464091,
+    "path": "/en/australia/victoria/batman/chargefox/coburg-civic-centre-moreland-city-guzgfbyv/",
+    "distance_km": 0.05914173373
+   }
+  ],
+  "faster": {
+   "public_id": "guzgfbyv",
+   "name": "Coburg Civic Centre / Moreland City",
+   "network": "chargefox",
+   "network_name": "Chargefox",
+   "address": "90 Bell Street, Coburg Victoria 3058",
+   "status": "active",
+   "speed": "fast",
+   "max_kw": 50,
+   "plugs": 3,
+   "standards": [
+    "ccs2",
+    "chademo",
+    "type-2"
+   ],
+   "cost_kind": "free",
+   "lat": -37.74104152020631,
+   "lng": 144.9701497464091,
+   "path": "/en/australia/victoria/batman/chargefox/coburg-civic-centre-moreland-city-guzgfbyv/",
+   "distance_km": 0.05914173373
+  },
+  "reviews": {
+   "summary": {
+    "count": 2,
+    "average": 4.5,
+    "last_worked_at": "2026-09-20T03:00:00Z",
+    "last_checked_at": null
+   },
+   "recent": [
+    {
+     "id": 41,
+     "name": "Sam",
+     "worked": "yes",
+     "rating": 5,
+     "body": "Both plugs working.",
+     "created_at": "2026-09-20T03:00:00Z"
+    },
+    {
+     "id": 40,
+     "name": "",
+     "worked": "no",
+     "rating": null,
+     "created_at": "2026-09-01T01:00:00Z"
+    }
+   ]
+  },
+  "photos": [
+   {
+    "id": "p7x2",
+    "licence": "CC BY 4.0",
+    "width": 1600,
+    "height": 1200,
+    "created_at": "2026-09-21T00:00:00Z"
+   }
+  ]
+ },
+ "generated_at": "2026-09-30T00:24:43Z"
+}

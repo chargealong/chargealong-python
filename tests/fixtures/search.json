@@ -1,0 +1,64 @@
+{
+ "data": {
+  "localities": [
+   {
+    "country_iso2": "US",
+    "country_name": "United States",
+    "region_code": "OR",
+    "region_name": "Oregon",
+    "slug": "coburg",
+    "name": "Coburg",
+    "site_count": 8,
+    "path": "/en/united-states/oregon/coburg/",
+    "exact": true,
+    "lat": 44.13707,
+    "lng": -123.06648
+   },
+   {
+    "country_iso2": "AU",
+    "country_name": "Australia",
+    "region_code": "VIC",
+    "region_name": "Victoria",
+    "slug": "coburg",
+    "name": "Coburg",
+    "postcode": "3058",
+    "site_count": 0,
+    "path": "/en/australia/victoria/coburg/",
+    "exact": true,
+    "lat": -37.75,
+    "lng": 144.96667
+   }
+  ],
+  "postcodes": [
+   {
+    "country_iso2": "AU",
+    "country_name": "Australia",
+    "code": "3058",
+    "lat": -37.745,
+    "lng": 144.965
+   }
+  ],
+  "sites": [
+   {
+    "public_id": "m6mnomea",
+    "name": "Coburg North EV Fast Charge",
+    "network": "chargefox",
+    "network_name": "Chargefox",
+    "address": "11 Boundary Road, Coburg North Victoria 3058",
+    "status": "active",
+    "speed": "fast",
+    "max_kw": 50,
+    "plugs": 2,
+    "standards": [
+     "ccs2",
+     "chademo"
+    ],
+    "cost_kind": "free",
+    "lat": -37.71893760420672,
+    "lng": 144.9615007076203,
+    "path": "/en/australia/victoria/fawkner/chargefox/coburg-north-ev-fast-charge-m6mnomea/"
+   }
+  ]
+ },
+ "generated_at": "2026-09-30T00:24:34Z"
+}

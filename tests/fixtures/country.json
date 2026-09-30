@@ -1,0 +1,47 @@
+{
+ "data": {
+  "country": {
+   "iso2": "AU",
+   "slug": "australia",
+   "name": "Australia",
+   "site_count": 5076
+  },
+  "regions": [
+   {
+    "slug": "australian-capital-territory",
+    "code": "ACT",
+    "name": "Australian Capital Territory",
+    "site_count": 84
+   },
+   {
+    "slug": "new-south-wales",
+    "code": "NSW",
+    "name": "New South Wales",
+    "site_count": 2833
+   },
+   {
+    "slug": "northern-territory",
+    "code": "NT",
+    "name": "Northern Territory",
+    "site_count": 33
+   }
+  ],
+  "busiest": [
+   {
+    "slug": "randwick",
+    "name": "Randwick",
+    "postcode": "2031",
+    "site_count": 26,
+    "region": "new-south-wales"
+   },
+   {
+    "slug": "chatswood",
+    "name": "Chatswood",
+    "postcode": "2057",
+    "site_count": 24,
+    "region": "new-south-wales"
+   }
+  ]
+ },
+ "generated_at": "2026-09-30T00:24:43Z"
+}

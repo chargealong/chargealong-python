@@ -1,0 +1,35 @@
+{
+ "data": [
+  {
+   "iso2": "AU",
+   "slug": "australia",
+   "name": "Australia",
+   "site_count": 5076
+  },
+  {
+   "iso2": "CA",
+   "slug": "canada",
+   "name": "Canada",
+   "site_count": 16732
+  },
+  {
+   "iso2": "NZ",
+   "slug": "new-zealand",
+   "name": "New Zealand",
+   "site_count": 968
+  },
+  {
+   "iso2": "GB",
+   "slug": "united-kingdom",
+   "name": "United Kingdom",
+   "site_count": 27422
+  },
+  {
+   "iso2": "US",
+   "slug": "united-states",
+   "name": "United States",
+   "site_count": 82327
+  }
+ ],
+ "generated_at": "2026-09-30T00:24:34Z"
+}

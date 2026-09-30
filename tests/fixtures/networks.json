@@ -1,0 +1,31 @@
+{
+ "data": {
+  "country": {
+   "iso2": "AU",
+   "slug": "australia",
+   "name": "Australia",
+   "site_count": 5076
+  },
+  "networks": [
+   {
+    "key": "unbranded",
+    "name": "",
+    "site_count": 2851,
+    "region_count": 8
+   },
+   {
+    "key": "chargefox",
+    "name": "Chargefox",
+    "site_count": 509,
+    "region_count": 7
+   },
+   {
+    "key": "tesla",
+    "name": "Tesla",
+    "site_count": 402,
+    "region_count": 7
+   }
+  ]
+ },
+ "generated_at": "2026-09-30T00:24:44Z"
+}

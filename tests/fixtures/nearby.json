@@ -1,0 +1,55 @@
+{
+ "data": {
+  "near": {
+   "country_iso2": "AU",
+   "name": "Merlynston",
+   "region_code": "VIC",
+   "region_name": "Victoria",
+   "path": "/en/australia/victoria/merlynston/",
+   "distance_km": 0.13679526359
+  },
+  "sites": [
+   {
+    "public_id": "hwqb4abf",
+    "name": "Coburg Town Hall / Moreland City",
+    "network": "chargefox",
+    "network_name": "Chargefox",
+    "address": "Bell Street, Coburg, Melbourne Victoria 3058",
+    "status": "active",
+    "speed": "ac",
+    "max_kw": 7,
+    "plugs": 2,
+    "standards": [
+     "type-2"
+    ],
+    "cost_kind": "free",
+    "lat": -37.74066654517114,
+    "lng": 144.96967301950258,
+    "path": "/en/australia/victoria/batman/chargefox/coburg-town-hall-moreland-city-hwqb4abf/",
+    "distance_km": 0.5625029574599999
+   },
+   {
+    "public_id": "guzgfbyv",
+    "name": "Coburg Civic Centre / Moreland City",
+    "network": "chargefox",
+    "network_name": "Chargefox",
+    "address": "90 Bell Street, Coburg Victoria 3058",
+    "status": "active",
+    "speed": "fast",
+    "max_kw": 50,
+    "plugs": 3,
+    "standards": [
+     "ccs2",
+     "chademo",
+     "type-2"
+    ],
+    "cost_kind": "free",
+    "lat": -37.74104152020631,
+    "lng": 144.9701497464091,
+    "path": "/en/australia/victoria/batman/chargefox/coburg-civic-centre-moreland-city-guzgfbyv/",
+    "distance_km": 0.60792635786
+   }
+  ]
+ },
+ "generated_at": "2026-09-30T00:24:35Z"
+}
